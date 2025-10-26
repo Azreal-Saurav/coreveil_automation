@@ -73,7 +73,7 @@ export default function Chatbot() {
           className="rounded-full w-16 h-16 bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg hover-lift p-0 overflow-hidden"
           onClick={() => setIsOpen(true)}
         >
-          <Image src="https://cdn.vectorstock.com/i/1000v/61/00/chat-bot-icon-with-artificial-intelligence-vector-47786100.jpg" alt="Chatbot Icon" width={64} height={64} className="object-cover"/>
+          <Image src="/public/logo.jpg" alt="Chatbot Icon" width={64} height={64} className="object-cover"/>
         </Button>
       </div>
 
@@ -87,7 +87,7 @@ export default function Chatbot() {
           <header className="flex items-center justify-between p-4 border-b border-border">
             <div className="flex items-center gap-3">
               <div className="relative w-10 h-10 bg-secondary rounded-lg flex items-center justify-center ring-1 ring-border overflow-hidden">
-                <Image src="https://cdn.vectorstock.com/i/1000v/47/28/mythical-dragon-logo-vector-50614728.jpg" alt="Coreveil Logo" width={40} height={40} className="object-cover" />
+                <Image src="/public/logo.jpg" alt="Coreveil Logo" width={40} height={40} className="object-cover" />
               </div>
             </div>
             <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)}>
